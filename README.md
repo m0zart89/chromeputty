@@ -27,6 +27,6 @@ Windows Registry Editor Version 5.00
 8. Link runs `C:\chrome_extensions\chromeputty\putty_util.bat`
 8. `C:\chrome_extensions\chromeputty\putty_util.bat` runs `C:\chrome_extensions\chromeputty\putty.exe` with forwarded IP address
 
-Also you could:
+Also you can:
 1. Customize Hotkeys in [`script.js`](https://github.com/m0zart89/chromeputty/blob/master/script.js#L4)
 2. Customize [`permitted scheme`](https://github.com/m0zart89/chromeputty/blob/master/manifest.json#L11) (details https://developer.chrome.com/extensions/match_patterns)
