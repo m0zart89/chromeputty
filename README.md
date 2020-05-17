@@ -32,7 +32,11 @@ set extract=%var:~6,-1%
 start /B C:\\chrome_extensions\\chromeputty\\putty.exe %extract%
 ```
 9. `C:\chrome_extensions\chromeputty\putty_util.bat` runs `C:\chrome_extensions\chromeputty\putty.exe` with forwarded ip-address
+10. Return to your page and hit once again Ctrl+Alt then link will be replaced with text ip-address
 
 Also you can:
 1. Customize Hotkeys in [`script.js`](https://github.com/m0zart89/chromeputty/blob/master/script.js#L4)
-2. Customize [`permitted scheme`](https://github.com/m0zart89/chromeputty/blob/master/manifest.json#L11) (details https://developer.chrome.com/extensions/match_patterns)
+2. Customize [`permitted scheme`](https://github.com/m0zart89/chromeputty/blob/master/manifest.json#L11) (details https://developer.chrome.com/extensions/match_patterns):
+```
+		"matches": ["*://*.mysite.net/*"],
+```
