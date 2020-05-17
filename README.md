@@ -21,7 +21,7 @@ Windows Registry Editor Version 5.00
 ```
 4. Open your chrome web browser extensions page `chrome://extensions/`: turn on developer mode (toggle), load extension and turn it on
 5. Open any page with ip-address `1.2.3.4` on it and hit Ctrl + Alt
-6. Then IP address will be replaced with highlighted pink link:
+6. Then ip-address will be replaced with highlighted pink link:
 ```<a style="background-color: #e2b0b0;" class="webputty" href="ssh://1.2.3.4" target="_blank">1.2.3.4</a>```
 7. Click the link
 8. Link runs `C:\chrome_extensions\chromeputty\putty_util.bat`:
@@ -31,7 +31,7 @@ set var=%1
 set extract=%var:~6,-1%
 start /B C:\\chrome_extensions\\chromeputty\\putty.exe %extract%
 ```
-9. `C:\chrome_extensions\chromeputty\putty_util.bat` runs `C:\chrome_extensions\chromeputty\putty.exe` with forwarded IP address
+9. `C:\chrome_extensions\chromeputty\putty_util.bat` runs `C:\chrome_extensions\chromeputty\putty.exe` with forwarded ip-address
 
 Also you can:
 1. Customize Hotkeys in [`script.js`](https://github.com/m0zart89/chromeputty/blob/master/script.js#L4)
