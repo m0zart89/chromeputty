@@ -24,7 +24,7 @@ Windows Registry Editor Version 5.00
 6. Then IP address will be replaced with highlighted pink link:
 ```<a style="background-color: #e2b0b0;" class="webputty" href="ssh://1.2.3.4" target="_blank">1.2.3.4</a>```
 7. Click the link.
-8. Clickig runs `C:\chrome_extensions\chromeputty\putty_util.bat`
+8. Link runs `C:\chrome_extensions\chromeputty\putty_util.bat`
 8. `C:\chrome_extensions\chromeputty\putty_util.bat` runs `C:\chrome_extensions\chromeputty\putty.exe` with forwarded IP address.
 
 Also you could:
