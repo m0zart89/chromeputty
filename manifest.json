@@ -4,8 +4,8 @@
 	"version": "0.0.1",
 	"description": "Open Putty from web page",
 	"icons": {
-		"16": "webputty-16.png",
-		"48": "webputty-48.png"
+		"16": "chromeputty-16.png",
+		"48": "chromeputty-48.png"
 	},
 	"content_scripts": [{
 		"matches": ["<all_urls>"],
