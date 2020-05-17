@@ -30,3 +30,11 @@ Windows Registry Editor Version 5.00
 Also you can:
 1. Customize Hotkeys in [`script.js`](https://github.com/m0zart89/chromeputty/blob/master/script.js#L4)
 2. Customize [`permitted scheme`](https://github.com/m0zart89/chromeputty/blob/master/manifest.json#L11) (details https://developer.chrome.com/extensions/match_patterns)
+
+`putty_util.bat':
+```
+@echo off
+set var=%1
+set extract=%var:~6,-1%
+start /B C:\\chrome_extensions\\chromeputty\\putty.exe %extract%
+```
